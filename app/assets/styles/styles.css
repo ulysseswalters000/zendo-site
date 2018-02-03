@@ -1,0 +1,183 @@
+@import "normalize.css";
+@import "base/_global";
+@import "base/_variables";
+
+
+
+
+/*html {*/
+/*	height: 100%;*/
+/*	width: 100%;*/
+/*}*/
+
+/*body {*/
+/*	height:100%;*/
+/*	width: 100%;*/
+/*	font-family: 'raleway';*/
+/*}*/
+
+/*Social Nav Stylings*/
+/*.nav-social {*/
+/*	background-color: #2f2f2f;*/
+/*	color: white;*/
+/*	height: 35px;*/
+/*}*/
+/*i {*/
+/*	color: #2f2f2f;*/
+/*	width: 100%;*/
+/*	height: 50%;*/
+/*	padding: 15%;*/
+/*}*/
+/*.circle {*/
+/*	background-color: white;*/
+/*	width: 22px;*/
+/*	height:22px;*/
+/*	border-radius: 50%;*/
+/*	text-align: center;*/
+/*}*/
+
+/*.circle:hover {*/
+/*	background-color: red;*/
+/*	color:white;*/
+/*}*/
+/*.nav-item {*/
+/*	margin-left: 10%;*/
+/*}*/
+
+/*Main Nav stylings*/
+/*nav a {*/
+/*	color: #2f2f2f;*/
+/*}*/
+/*nav .nav-brand {*/
+/*	color:red;*/
+/*	font-weight: 800;*/
+/*	font-size: 2em*/
+/*}*/
+/*nav a:hover {*/
+/*	color: red;*/
+/*}*/
+/*.active a {*/
+/*	color: red;*/
+/*}*/
+/*#brandSpacer {*/
+/*	padding: 0 10%;*/
+/*}*/
+/*div .collapse {*/
+/*	float: right;*/
+/*}*/
+
+
+
+jumbotron stylings
+.jumbo1 {
+	background-image: url("https://images.unsplash.com/photo-1484423380159-14450f89e3ad?auto=format&fit=crop&w=1936&q=80");
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 350px;
+}
+/*.jumbo2 {*/
+/*	height: 200px;	*/
+/*	margin-top: 20px;*/
+/*	background-image: url("https://images.unsplash.com/photo-1495553715023-a3c367bb8620?auto=format&fit=crop&w=1350&q=80");*/
+/*	background-repeat: no-repeat;*/
+/*	background-position: center;*/
+/*	background-size: cover;*/
+/*}*/
+
+/*.aboutJumbo {*/
+/*    background-image: url("https://images.unsplash.com/photo-1493689485253-f07fcbfc731b?auto=format&fit=crop&w=1333&q=80");*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    background-position: inherit;*/
+/*    min-height:550px;*/
+/*}*/
+
+/*Content Stylings*/
+
+/*.logo {*/
+/*	display: block;*/
+/*	width: 350px;*/
+/*	height: 200px;*/
+/*	text-align: left;*/
+/*	padding-bottom: 0;*/
+/*}*/
+/*.branding a {*/
+/*	color: red;*/
+/*	text-decoration: underline;*/
+/*}*/
+/*.branding a:hover {*/
+/*	text-decoration: none;*/
+/*}*/
+
+/*.buttonTemplate {*/
+/*	display: inline-block;*/
+/*	color: red;*/
+/*	min-width: 300px;*/
+/*	height: 80px;*/
+/*	padding: 10px 20px;*/
+/*	background-color: #fff;*/
+/*	border: 2px solid red;*/
+/*	font-size: 40px;*/
+/*	font-weight: bold;*/
+/*	margin: 0 auto;*/
+/*	text-align: center;*/
+/*}*/
+
+/*.buttonTemplate:hover {*/
+/*	background-color: red;*/
+/*	color: white;*/
+/*	transition: all 0.2s linear;*/
+/*	text-decoration: none;*/
+/*}*/
+
+/*hr {*/
+/*	margin-bottom: 30px;*/
+/*}*/
+
+/*footer stylings*/
+
+/*footer {*/
+/*	background-color: #2f2f2f;*/
+/*	color: white;*/
+/*}*/
+
+/*footer p i {*/
+/*	color:white;*/
+/*}*/
+
+
+
+
+
+
+
+/*CSS Method classes*/
+/*toUpper*/
+/*.toUpper {*/
+/*	text-transform: uppercase;*/
+/*}*/
+
+/*.centerHorizAndVert {*/
+/*	width:100%;*/
+/*	height:50%;*/
+/*	display: flex;*/
+/*	align-items: center;*/
+/*	justify-content: center;*/
+/*}*/
+
+/*.strong {*/
+/*	font-weight: bold;*/
+/*} */
+
+/*.container-fluid {*/
+/*	padding: 0 0;*/
+/*}*/
+
+/*.white-text {*/
+/*    color: white;*/
+/*}*/
+
+/*.text-shadow {*/
+/*    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2),*/
+/*                 0px 4px 13px rgba(0, 0, 0, 0.4); */
+/*}*/
