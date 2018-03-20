@@ -1,0 +1,9 @@
+.image {
+		max-height: 300px;
+		
+
+		&--picture-height {
+			max-height: 100%;
+			
+		}
+}
