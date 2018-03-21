@@ -1480,3 +1480,14 @@ img {
 		}
 	}
 
+.hidden-on-mobile {
+	display: none;
+}
+
+@media (min-width: 800px) {
+
+.hidden-on-mobile {
+		display: block
+}
+	}
+
