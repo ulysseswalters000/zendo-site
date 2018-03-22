@@ -947,14 +947,7 @@ img {
 	}
 
 .section-title--color {
-		color: #57585B;
-	}
-
-@media (min-width: 1010px) {
-
-.section-title--color {
-			color: #FFF
-	}
+		color: #C7AE62;
 	}
 
 .section-title--less-margin {
@@ -1170,6 +1163,10 @@ img {
 		max-width: 100px;
 		-webkit-transform: translateY(-15px);
 		        transform: translateY(-15px);
+	}
+
+.site-header__menu-icon:hover {
+		cursor: pointer;
 	}
 
 .site-header__menu-icon {
@@ -1443,9 +1440,10 @@ img {
 		background-color: #A55106;
 		display: inline-block;
 		margin: 0 5px 5px 5px;
-		width: 15%;
-		height: 72px;
+		width: 16%;
+		height: 68px;
 		position: relative;
+		border-radius: 10%;
 	}
 
 @media (min-width: 530px) {
@@ -1463,8 +1461,8 @@ img {
 			position: absolute;
 			top: 50%;
 			left: 50%;
-			-webkit-transform: translate(-68%, -68%);
-			        transform: translate(-68%, -68%);
+			-webkit-transform: translate(-66%, -67%);
+			        transform: translate(-66%, -67%);
 		}
 
 @media (min-width: 800px) {
@@ -1475,8 +1473,8 @@ img {
 				position: absolute;
 				top: 50%;
 				left: 50%;
-				-webkit-transform: translate(-68%, -68%);
-				        transform: translate(-68%, -68%)
+				-webkit-transform: translate(-66%, -68%);
+				        transform: translate(-66%, -68%)
 		}
 	}
 
@@ -1490,4 +1488,66 @@ img {
 		display: block
 }
 	}
+
+.icon {
+      background-image: url('../../assets/images/sprites/sprite-5377b918.svg');
+    }
+
+.no-svg .icon {
+      background-image: url('../../assets/images/sprites/sprite-5377b918.png');
+    }
+
+.icon--comments {
+    width:71.92px;
+    height:62px;
+    background-position:55.3638193845269% 0;
+  }
+
+.icon--dolly-flatbed {
+    width:77px;
+    height:62px;
+    background-position:0 0;
+  }
+
+.icon--facebook-square {
+    width:62px;
+    height:62px;
+    background-position:41.61744966442953% 64.58333333333333%;
+  }
+
+.icon--globe {
+    width:34px;
+    height:34px;
+    background-position:84.13559322033899% 50%;
+  }
+
+.icon--instagram {
+    width:62.01px;
+    height:62px;
+    background-position:0 64.58333333333333%;
+  }
+
+.icon--reply-all {
+    width:34px;
+    height:34px;
+    background-position:0 100%;
+  }
+
+.icon--search-plus {
+    width:34px;
+    height:34px;
+    background-position:19.2090395480226% 100%;
+  }
+
+.icon--sitemap {
+    width:34px;
+    height:34px;
+    background-position:38.4180790960452% 100%;
+  }
+
+.icon--twitter-square {
+    width:62px;
+    height:62px;
+    background-position:99.94630872483222% 0;
+  }
 
