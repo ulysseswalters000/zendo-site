@@ -1070,6 +1070,10 @@ img {
 		margin-bottom: 0;
 	}
 
+.team--text-align {
+		text-align: center;
+	}
+
 .btn {
     background-color: #57585B;
     color: #FFF;
