@@ -506,7 +506,7 @@ img {
 @media (min-width: 530px) {
 
 .large-hero__title {
-			font-size: 2.2rem
+			font-size: 4rem
 	}
 	}
 
@@ -520,7 +520,7 @@ img {
 @media (min-width: 530px) {
 
 .large-hero__subtitle {
-            font-size: 1.3rem;
+            font-size: 2rem;
             margin: 0 50px
     }
 	}
