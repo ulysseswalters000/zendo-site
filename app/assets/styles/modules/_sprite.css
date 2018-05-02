@@ -1,10 +1,15 @@
     .icon {
-      background-image: url('../../assets/images/sprites/sprite-5377b918.svg');
+      background-image: url('../../assets/images/sprites/sprite-76236e91.svg');
     }
 
     .no-svg .icon {
-      background-image: url('../../assets/images/sprites/sprite-5377b918.png');
+      background-image: url('../../assets/images/sprites/sprite-76236e91.png');
     }
+  .icon--align-left {
+    width:32px;
+    height:32px;
+    background-position:74.86033519553072% 98.41269841269842%;
+  }
   .icon--comments {
     width:71.92px;
     height:62px;
@@ -18,7 +23,12 @@
   .icon--facebook-square {
     width:62px;
     height:62px;
-    background-position:41.61744966442953% 64.58333333333333%;
+    background-position:99.94630872483222% 0;
+  }
+  .icon--file-alt {
+    width:32px;
+    height:32px;
+    background-position:56.98324022346369% 98.41269841269842%;
   }
   .icon--globe {
     width:34px;
@@ -33,20 +43,20 @@
   .icon--reply-all {
     width:34px;
     height:34px;
-    background-position:0 100%;
+    background-position:19.2090395480226% 100%;
   }
   .icon--search-plus {
     width:34px;
     height:34px;
-    background-position:19.2090395480226% 100%;
+    background-position:38.4180790960452% 100%;
   }
   .icon--sitemap {
     width:34px;
     height:34px;
-    background-position:38.4180790960452% 100%;
+    background-position:0 100%;
   }
   .icon--twitter-square {
     width:62px;
     height:62px;
-    background-position:99.94630872483222% 0;
+    background-position:41.61744966442953% 64.58333333333333%;
   }
