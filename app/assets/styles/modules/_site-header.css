@@ -153,13 +153,28 @@
 	padding-top: 12px;
 	float: left;
 	margin-left: 200px;
-	font-size: 1.8rem;
 	color: #000;
-	width: 50%;
+	width: 20%;
+	display: none;
 
 	@mixin atSmall {
-		display: none;
+		display: block;
+		font-size: 1.6rem;
 	}
+
+	@mixin atMedium {
+		width: 30%;
+		font-size: 2rem;
+
+	}
+	@mixin atLarge {
+		width: 45%;
+	}
+
+	font-size: 1.8rem;
+
+
+
 
 	&-second {
 		font-weight: 300;

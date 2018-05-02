@@ -1298,15 +1298,33 @@ img {
 	padding-top: 12px;
 	float: left;
 	margin-left: 200px;
-	font-size: 1.8rem;
 	color: #000;
-	width: 50%;
+	width: 20%;
+	display: none;
+
+	font-size: 1.8rem;
 }
 
 @media (min-width: 530px) {
 
 .site-header__brand {
-		display: none
+		display: block;
+		font-size: 1.6rem
+}
+	}
+
+@media (min-width: 800px) {
+
+.site-header__brand {
+		width: 30%;
+		font-size: 2rem
+}
+	}
+
+@media (min-width: 1010px) {
+
+.site-header__brand {
+		width: 45%
 }
 	}
 
